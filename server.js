@@ -12,7 +12,7 @@ app.get('/', function(req, res){
   var release = process.env.WORKFLOW_RELEASE;
 
   if (typeof(message) == "undefined") {
-  	poweredBy = "Deis";
+  	poweredBy = "Deis + Craig daaaavid";
   }
 
   exec('hostname', function(error, stdout, stderr) {
